@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0
-UnitCount=3
+UnitCount=2
 
 [VersionInfo]
 Major=1
@@ -60,18 +60,9 @@ Priority=1000
 OverrideBuildCmd=0
 BuildCmd=
 
-[Unit3]
-FileName=testTry.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
 [Unit2]
-FileName=Untitled4
+FileName=25Jan.cpp
+CompileCpp=1
 Folder=
 Compile=1
 Link=1
