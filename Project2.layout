@@ -4,8 +4,8 @@ CursorRow=59
 TopLine=41
 LeftChar=1
 [Editors]
-Order=0,1,2,3
-Focused=3
+Order=0,1,2,3,4
+Focused=4
 [Editor_0]
 CursorCol=1
 CursorRow=7
@@ -19,5 +19,10 @@ LeftChar=1
 [Editor_3]
 CursorCol=3
 CursorRow=139
-TopLine=112
+TopLine=110
+LeftChar=1
+[Editor_4]
+CursorCol=3
+CursorRow=49
+TopLine=20
 LeftChar=1
