@@ -1,0 +1,82 @@
+# Project: Project2
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = 24jan.o 25Jan.o 26Jan.o 27Jan.o 29Jan.o 30Jan.o 1Feb.o 4Feb.o 8Feb.o 10Feb.o 11Feb.o 12Feb.o 15Feb.o 16Feb.o 17Feb.o 20Feb.o 23Feb.o 25Feb.o 14march.o
+LINKOBJ  = 24jan.o 25Jan.o 26Jan.o 27Jan.o 29Jan.o 30Jan.o 1Feb.o 4Feb.o 8Feb.o 10Feb.o 11Feb.o 12Feb.o 15Feb.o 16Feb.o 17Feb.o 20Feb.o 23Feb.o 25Feb.o 14march.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = Project2.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+24jan.o: 24jan.cpp
+	$(CPP) -c 24jan.cpp -o 24jan.o $(CXXFLAGS)
+
+25Jan.o: 25Jan.cpp
+	$(CPP) -c 25Jan.cpp -o 25Jan.o $(CXXFLAGS)
+
+26Jan.o: 26Jan.cpp
+	$(CPP) -c 26Jan.cpp -o 26Jan.o $(CXXFLAGS)
+
+27Jan.o: 27Jan.cpp
+	$(CPP) -c 27Jan.cpp -o 27Jan.o $(CXXFLAGS)
+
+29Jan.o: 29Jan.cpp
+	$(CPP) -c 29Jan.cpp -o 29Jan.o $(CXXFLAGS)
+
+30Jan.o: 30Jan.cpp
+	$(CPP) -c 30Jan.cpp -o 30Jan.o $(CXXFLAGS)
+
+1Feb.o: 1Feb.cpp
+	$(CPP) -c 1Feb.cpp -o 1Feb.o $(CXXFLAGS)
+
+4Feb.o: 4Feb.cpp
+	$(CPP) -c 4Feb.cpp -o 4Feb.o $(CXXFLAGS)
+
+8Feb.o: 8Feb.cpp
+	$(CPP) -c 8Feb.cpp -o 8Feb.o $(CXXFLAGS)
+
+10Feb.o: 10Feb.cpp
+	$(CPP) -c 10Feb.cpp -o 10Feb.o $(CXXFLAGS)
+
+11Feb.o: 11Feb.cpp
+	$(CPP) -c 11Feb.cpp -o 11Feb.o $(CXXFLAGS)
+
+12Feb.o: 12Feb.cpp
+	$(CPP) -c 12Feb.cpp -o 12Feb.o $(CXXFLAGS)
+
+15Feb.o: 15Feb.cpp
+	$(CPP) -c 15Feb.cpp -o 15Feb.o $(CXXFLAGS)
+
+16Feb.o: 16Feb.cpp
+	$(CPP) -c 16Feb.cpp -o 16Feb.o $(CXXFLAGS)
+
+17Feb.o: 17Feb.cpp
+	$(CPP) -c 17Feb.cpp -o 17Feb.o $(CXXFLAGS)
+
+20Feb.o: 20Feb.cpp
+	$(CPP) -c 20Feb.cpp -o 20Feb.o $(CXXFLAGS)
+
+23Feb.o: 23Feb.cpp
+	$(CPP) -c 23Feb.cpp -o 23Feb.o $(CXXFLAGS)
+
+25Feb.o: 25Feb.cpp
+	$(CPP) -c 25Feb.cpp -o 25Feb.o $(CXXFLAGS)
+
+14march.o: 14march.cpp
+	$(CPP) -c 14march.cpp -o 14march.o $(CXXFLAGS)
